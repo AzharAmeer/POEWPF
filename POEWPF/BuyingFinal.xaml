@@ -1,0 +1,18 @@
+﻿<Window x:Class="POEWPF.BuyingFinal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POEWPF"
+        mc:Ignorable="d"
+        Title="BuyingFinal" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="89,74,0,0" TextWrapping="Wrap" Text="Your monthly payment is: R" VerticalAlignment="Top" FontSize="20" Width="263"/>
+        <TextBlock HorizontalAlignment="Left" Margin="401,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="payMonth" HorizontalAlignment="Left" Margin="357,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="124"/>
+        <Label Content="Want to purchase a car ?" HorizontalAlignment="Left" Margin="197,177,0,0" VerticalAlignment="Top" FontSize="24" Width="329"/>
+        <Button Content="Yes" HorizontalAlignment="Left" Margin="154,286,0,0" VerticalAlignment="Top" Width="96" FontSize="20" Click="Button_Click"/>
+        <Button Content="No" HorizontalAlignment="Left" Margin="507,286,0,0" VerticalAlignment="Top" Width="94" FontSize="20" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

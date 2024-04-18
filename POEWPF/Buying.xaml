@@ -1,0 +1,22 @@
+﻿<Window x:Class="POEWPF.Buying"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POEWPF"
+        mc:Ignorable="d"
+        Title="Buying" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="36,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="427"><Run Text="Enter "/><Run Text="price you would like to purchase: R"/></TextBlock>
+        <TextBox x:Name="purchaseTxt" HorizontalAlignment="Left" Height="23" Margin="646,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="36,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="427"><Run Text="Enter "/><Run Text="your deposit amount: R"/></TextBlock>
+        <TextBox x:Name="depositTxt" HorizontalAlignment="Left" Height="23" Margin="646,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="36,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="427"><Run Text="E"/><Run Text="nter interest rate:"/></TextBlock>
+        <TextBox x:Name="interestTxt" Height="23" Margin="646,167,26,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="36,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"><Run Text="E"/><Run Text="nter the number of months to repay, must be between 240 and 360: "/></TextBlock>
+        <TextBox x:Name="monthRepayTxt" HorizontalAlignment="Left" Height="23" Margin="646,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="555,330,0,0" VerticalAlignment="Top" Width="112" FontSize="20" Click="Button_Click"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="107,330,0,0" VerticalAlignment="Top" Width="113" FontSize="20" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

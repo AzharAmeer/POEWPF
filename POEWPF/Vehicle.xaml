@@ -1,0 +1,24 @@
+﻿<Window x:Class="POEWPF.Vehicle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POEWPF"
+        mc:Ignorable="d"
+        Title="Vehicle" Height="450" Width="800">
+    <Grid>
+        <Label Content="Please enter the model and make:" HorizontalAlignment="Left" Margin="52,60,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="vehicleModelTxt" HorizontalAlignment="Left" Height="24" Margin="607,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20" RenderTransformOrigin="0.485,-0.149"/>
+        <Label Content="Please enter purchase price: R" HorizontalAlignment="Left" Margin="52,116,0,0" VerticalAlignment="Top" FontSize="20" Width="309"/>
+        <TextBox x:Name="vehiclePurchaseTxt" HorizontalAlignment="Left" Height="23" Margin="607,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Label Content="Please enter your deposit: R" HorizontalAlignment="Left" Margin="52,180,0,0" VerticalAlignment="Top" FontSize="20" Width="309"/>
+        <TextBox x:Name="vehicleDeposit" HorizontalAlignment="Left" Height="23" Margin="607,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Label Content="Please enter the interest rate: R" HorizontalAlignment="Left" Margin="52,249,0,0" VerticalAlignment="Top" FontSize="20" Width="309"/>
+        <Label Content="Please enter estimated insurance premium: R" HorizontalAlignment="Left" Margin="52,304,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="vehicleInterestTxt" HorizontalAlignment="Left" Height="23" Margin="607,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <TextBox x:Name="vehiclePremium" HorizontalAlignment="Left" Height="23" Margin="607,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="78,362,0,0" VerticalAlignment="Top" Width="118" Height="31" FontSize="20" Click="Button_Click"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="521,362,0,0" VerticalAlignment="Top" Width="109" Height="31" FontSize="20" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

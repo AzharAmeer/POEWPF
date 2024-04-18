@@ -1,0 +1,15 @@
+﻿<Window x:Class="POEWPF.Accomadation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POEWPF"
+        mc:Ignorable="d"
+        Title="Accomadation" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="59" Margin="78,39,0,0" TextWrapping="Wrap" Text="please let us know if you are going to be buying or renting a property" VerticalAlignment="Top" Width="627" FontSize="20"/>
+        <Button Content="Renting" HorizontalAlignment="Left" Margin="115,228,0,0" VerticalAlignment="Top" Width="153" Height="33" FontSize="20" Click="Button_Click"/>
+        <Button Content="Buying " HorizontalAlignment="Left" Margin="503,228,0,0" VerticalAlignment="Top" Width="144" Height="33" FontSize="20" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

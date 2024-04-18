@@ -1,0 +1,15 @@
+﻿<Window x:Class="POEWPF.SavingsFinal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POEWPF"
+        mc:Ignorable="d"
+        Title="SavingsFinal" Height="450" Width="800">
+    <Grid>
+        <Label Content="You will be saving the amount of : R" HorizontalAlignment="Left" Margin="41,62,0,0" VerticalAlignment="Top" FontSize="24" Width="430"/>
+        <TextBlock x:Name="finalTxt" HorizontalAlignment="Left" Margin="476,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Width="142"/>
+        <Button Content="Finish" HorizontalAlignment="Left" Margin="314,269,0,0" VerticalAlignment="Top" Width="157" FontSize="24" Click="Button_Click"/>
+
+    </Grid>
+</Window>
